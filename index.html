@@ -1,0 +1,83 @@
+<html>
+   <head>
+	<meta charset="UTF-8">
+      <title>臥龍控股 | 首頁</title>
+		<!--一般都用下面這個方法導入css-->
+	  <link rel="stylesheet" href="styles.css" />
+   </head>
+	
+	<!--
+		1.設計稿分析
+			- 頭部
+			- 導航
+			- 橫幅(宣傳圖文)
+			- 新聞資訊1
+			- 新聞資訊2
+			- 底部
+			
+		2.項目工程創建
+			-創建對應文件夾 方便對應JS CSS IMG等
+			
+		3.根據模塊劃分.搭建頁面基本框架(如頭部算一個模塊)
+		
+		4.將整體架構分開
+		
+		5.一個個模塊填充
+		
+		ps截圖:
+			-矩形選框(=選種需要擷取的)
+			-command+ c(複製)
+			-command+ n(新建)
+			-command+ v(黏貼)
+			-command+ X(保存)
+			-選擇保存路徑.保存類型.文件名稱
+			
+			盒子模型 =content內容 + padding +border + margin
+	-->
+	
+	
+	
+	
+	
+   <body>
+		<!--最外層的模塊習慣用ID 1.頭部-->
+		<div id="header">
+		<div class="logo">
+		<a href="S">
+			<img src="logo.png" />
+			</a>
+		</div>
+		<div class="search">
+		<!--
+		*input搜尋的那種框 *submit按鈕 *text文本
+		-->
+				<form>
+					<input type="text" value="search" class="text" />
+					<input type="submit" class="bt" value=""/>
+				</form>
+			</div>
+		</div>
+		
+		<!--2.導航-->
+		<div id="nav">
+			<ul>
+				<li> <a href="#">集團介紹</a/> <li>
+				<li> <a href="#">產品中心</a/> <li>
+				<li> <a href="#">臥龍市場</a/> <li>
+				<li> <a href="#">技術研發</a/> <li>
+				<li> <a href="#">國際合作</a/> <li>
+				<li> <a href="#">投資者關係</a/> <li>
+				<li> <a href="#">新聞資訊</a/> <li>
+				<li> <a href="#">人力資源</a/> <li>
+				
+		</div>
+		<!--3.橫幅-->
+		<div id="banner"></div>
+		
+		<!--4.新聞-->
+		<div id="news"></div>
+		
+		<!--5.底部-->
+		<div id="footer"></div>
+   </body> 
+</html>

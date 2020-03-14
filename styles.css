@@ -1,0 +1,89 @@
+/*重置樣式*/
+*{
+	margin:0;
+	padding:0;
+}
+
+#header{ 
+	width:999px; 
+	height:100px;
+	background:white;
+	margin: 0 auto;
+}
+#header .logo{
+	width:249px;
+	height:31px;
+	background:red;
+	float:left;
+	margin: 39px 0 30px 19px;
+}
+#header .search{
+	width:230px;
+	/*height:31px;*/
+	height:29 px;
+	background:blue;
+	float:right;
+	margin:39px 20px 30px 0px;
+	background:#f1f1f1;
+	border: 1px solid gray;
+}
+#header .search .text{
+	/*width: 204px;*/
+	height:29px;
+	width: 188px;
+	border: none;
+	float: left;
+	padd-left:16px;
+	font-size: 10px;
+	background:#f1f1f1;
+}
+#header .search .bt{
+	height:29px;
+	width: 26px;
+	float: left;
+	background: url(sss.JPG) no-repeat left center;
+	border: none;
+}
+#nav{
+	width:999px;
+	height:60px;
+	background:black;
+	margin:0 auto;
+}
+#nav ul li {
+	float:left;
+	list-style:none;
+	width:120px;
+	height:60px;
+	text-align:center;
+	border-right:1px solid #4a4a4a;
+	line-height:60px;
+	font-size: 13px;
+	
+}
+#nav ul li a{
+	color: white;
+	text-decoration:none;
+	
+}
+#banner{
+	width:999px;
+	height:464px;
+	background:red;
+	margin: 0 auto;
+}
+
+#news{
+	width:999px;
+	height:547px;
+	background:green;
+	margin: 0 auto;
+	
+}
+
+#footer{
+	width:999px;
+	height:332px;
+	background:yellow;
+	margin: 0 auto;
+}
