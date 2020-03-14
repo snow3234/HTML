@@ -50,6 +50,14 @@
 	background:black;
 	margin:0 auto;
 }
+/*要調整LI 就要調整UL*/
+#nav ul{
+	padding-left:25px;
+}
+#nav ul.last{
+	border-right:none;
+	
+}
 #nav ul li {
 	float:left;
 	list-style:none;
@@ -78,7 +86,37 @@
 	height:547px;
 	background:green;
 	margin: 0 auto;
-	
+}
+#news .news-1{
+	width: 999px;
+	height: 243px;
+	background:red;
+}
+#news .news-1 .section1{
+	/*width: 500px;*/
+	width: 454px;
+	height:243px;
+	background:gray;
+	float:left;
+	padding-left:20px;
+	padding-left:26px;
+}
+#news .news-1 .section2{
+	width:240px;
+	height:243px;
+	background:white;
+	float:left;
+}
+#news .news-1 .section3{
+	width:259px;
+	height:243px;
+	background:purple;
+	float:left;
+}
+#news .new-2{
+	width: 999px;
+	height: 305px;
+	background:blue;
 }
 
 #footer{
